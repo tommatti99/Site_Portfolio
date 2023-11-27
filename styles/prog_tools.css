@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Lastica'; 
+    src: url('../content/fonts/Font_Lastica.ttf');
+    } 
+
+body{
+    background: linear-gradient(90deg, #000000 10%, #000000 10%, #737373 100%);
+}
+
+.tecnologies_group{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 1.5em;
+    color: white;
+    font-family: "Lastica";
+}
+
+
+.prog_language{
+    color: white;
+    font-family: "Lastica";
+    font-size: 2.5em;
+}
+.frameworks_and_libraries{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 1.5em;
+}

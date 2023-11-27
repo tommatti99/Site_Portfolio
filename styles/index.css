@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Lastica'; 
+    src: url('../content/fonts/Font_Lastica.ttf');
+    } 
+
+body{
+    background: linear-gradient(90deg, #000000 10%, #000000 10%, #737373 100%);
+}
+
+.stage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 1.5em;
+}    
+.dev_name{
+    color: white;
+    font-family: 'Lastica';
+    font-size: 2em;
+}
+.role{
+    color: white;
+    font-family: 'Lastica';
+    font-size:5em;
+}
+.icon{
+    width: 5em;
+    height: auto;
+    display: inline;
+    margin-right: 1em;
+}
+.paragraph{
+    color: white;
+    font-family: "Lastica";
+    font-size: 2.5em;
+}
+.center_paragraph{
+    color: white;
+    font-family: "Lastica";
+    font-size: 2.5em;
+}
+.links_blocks{
+    color: white;
+    font-family: "Lastica";
+    text-decoration: none;
+    border: 0.12em solid white; /* Espessura, estilo e cor da borda */
+    padding: 10px; 
+    width: 20em;
+    height: auto;
+    margin: 0 auto;
+    display: block; /* Torna o link um bloco para aplicar propriedades de bloco */
+    text-align: justify;
+}
